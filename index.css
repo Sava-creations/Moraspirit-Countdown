@@ -19,7 +19,7 @@ body {
 
 .container {
     text-align: center;
-    width: 35%;
+    width: 40%;
     margin: 20px;
 }
 
@@ -75,3 +75,38 @@ body {
     background: #463ecf; /*change*/
     transform: scale(1.05);
 }
+
+/*only for config.html*/ 
+
+input[type="datetime-local"] {
+  padding: 12px;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  margin: 20px 15px;
+  outline: none;
+}
+
+.save {
+  padding: 12px 28px;
+  background-color: #ff5722; 
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+}
+
+.save:hover {
+  background-color: #e64a19;
+  transform: scale(1.05);
+}
+
+/* #saveStatus {
+  margin-top: 15px;
+  font-size: 1rem;
+  color: #00ffcc;
+} */
+
+
+
