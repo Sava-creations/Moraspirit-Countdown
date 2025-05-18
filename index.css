@@ -54,11 +54,10 @@ body {
     color: #000000;
 }
 
-/* #message {
+#message {
     margin-top: 20px;
-    font-size: 1rem;
     color: #ffb347;
-} */
+}
 
 .set{
     display: inline-block;
@@ -102,11 +101,10 @@ input[type="datetime-local"] {
   transform: scale(1.05);
 }
 
-/* #saveStatus {
-  margin-top: 15px;
+#saveStatus {
   font-size: 1rem;
   color: #00ffcc;
-} */
+}
 
 
 
